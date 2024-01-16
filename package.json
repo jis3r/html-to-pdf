@@ -1,0 +1,23 @@
+{
+  "name": "html-to-pdf",
+  "version": "0.0.1",
+  "description": "A simple backend service to generate .pdf-files from html.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jis3r/html-to-pdf.git"
+  },
+  "author": "jis3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jis3r/html-to-pdf/issues"
+  },
+  "homepage": "https://github.com/jis3r/html-to-pdf#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.7.0"
+  }
+}
