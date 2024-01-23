@@ -26,5 +26,5 @@ app.post('/generate-pdf', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`html-to-pdf listening at http://localhost:${port}`);
+  console.log(`html-to-pdf listening at port ${port}`);
 });
