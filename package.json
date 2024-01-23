@@ -4,6 +4,8 @@
   "description": "A simple backend service to generate .pdf-files from html.",
   "main": "app.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step needed for this application'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
